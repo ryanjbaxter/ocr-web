@@ -18,3 +18,10 @@ Alternatively you can run the application using Docker, there is an
 ```
 $ docker run -p 8080:8080 -i ryanjbaxter/ocr-web
 ```
+
+## Usage
+This app requires [Eureka](https://github.com/ryanjbaxter/ocr-eureka), 
+[OCR Races](https://github.com/ryanjbaxter/ocr-races), and [OCR Participants](https://github.com/ryanjbaxter/ocr-participants) 
+to work correctly.
+
+Once running open your browser and go to `http://localhost:8080`.
