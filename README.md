@@ -1,4 +1,6 @@
 # ocr-web
+[![CircleCI](https://circleci.com/gh/ryanjbaxter/ocr-web.svg?style=svg)](https://circleci.com/gh/ryanjbaxter/ocr-web)
+
 Web app for OCR Spring Cloud Demo from my [blog](http://ryanjbaxter.com).  This application uses 
 [Zuul from Spring Cloud Netflix](http://cloud.spring.io/spring-cloud-static/spring-cloud.html#_router_and_filter_zuul)
 to route requests to various services.
