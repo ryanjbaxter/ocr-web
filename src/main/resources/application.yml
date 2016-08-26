@@ -20,6 +20,17 @@ zuul:
   routes:
     races: /races/**
     participants: /paticipants/**
+
+ribbon:
+  ConnectTimeout: 60000
+  ReadTimeout: 60000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
     
 ---
 spring:
